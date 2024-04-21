@@ -20,3 +20,16 @@
     width: 20%;
     border-radius: 20px;
 }
+
+button {
+    padding: 10px;
+    border-radius: 10px;
+    border-color: #9198e5;
+    background-image:linear-gradient(to bottom right, blue, pink);
+    color: white;
+}
+
+button:hover {
+    background-image:linear-gradient(to bottom right, yellow, cyan);
+    cursor: pointer;
+}
